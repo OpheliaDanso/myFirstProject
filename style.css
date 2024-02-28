@@ -1,0 +1,224 @@
+http:meyerweb.com/eric/tools/css/reset/ body {
+  font-family: "Roboto slab", serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #7d0a0a;
+  padding: 30px 30px 30px 30px;
+}
+
+.nav-left {
+  font-family: "kode Mono", serif;
+  color: white;
+}
+
+.nav-left:hover {
+  color: blue;
+}
+
+.nav-left:active {
+  color: greenyellow;
+}
+
+.nav-right {
+  width: 80%;
+  font-family: "kode Mono", serif;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-right ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: end;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-right a:hover {
+  color: aqua;
+}
+
+.nav-right a:active {
+  color: greenyellow;
+}
+
+#home {
+  background-color: #aa2b1d;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 22rem;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+header {
+  font-family: "kode Mono", serif;
+  font-size: large;
+  font-weight: 0.7em;
+}
+
+header h1 {
+  margin-top: 0%;
+  padding-top: 0%;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+header p {
+  padding: 5px;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  margin-top: 0%;
+  padding-top: 0%;
+  color: white;
+  text-shadow: 4px 4px black;
+}
+
+h1,
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#duck {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #cc561e;
+  min-height: 20rem;
+}
+
+.text {
+  padding: 10px;
+  width: 300px;
+  height: 80px;
+  text-align: center;
+  margin-top: 0%;
+  padding-top: 0%;
+  color: white;
+  padding-top: 0.5rem;
+  margin-top: 0.5rem;
+  word-spacing: 0.5rem;
+  text-shadow: 4px 4px black;
+}
+
+.text h2 {
+  text-shadow: 4px 4px 6px #000000;
+}
+
+.rduck {
+  padding-top: 1.5em;
+  margin-top: 1.5em;
+}
+
+.rduck img {
+  -webkit-box-reflect: right;
+}
+
+#emergency {
+  background-color: #ef8d32;
+  margin: 0%;
+}
+
+#emergency h2 {
+  margin: 0%;
+  padding: 0.7em;
+}
+
+#emergency .grid-container {
+  justify-content: center;
+  align-items: center;
+}
+
+#emergency h2 {
+  color: white;
+  font-family: "kode Mono", serif;
+  text-shadow: 4px 4px black;
+}
+
+#contact {
+  background-color: #beca5c;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3px;
+  width: 80%;
+  margin-left: 20rem;
+  padding-top: 0.7em;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.grid-container a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+.grid-container a:hover {
+  color: chartreuse;
+}
+
+.grid-container a:active {
+  color: blue;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer h2 {
+  color: white;
+  font-family: "kode Mono", serif;
+  text-shadow: 4px 4px 6px #000000;
+}
+
+form input {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 50rem;
+  background-color: bisque;
+  border: none;
+}
+
+form textarea {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 50rem;
+  background-color: bisque;
+  border: none;
+}
+
+form button {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 10rem;
+}
+
+form button:hover {
+  color: blue;
+}
